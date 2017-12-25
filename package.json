@@ -1,0 +1,37 @@
+{
+  "name": "kremlin.tmp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "bower": "^1.8.2",
+    "connect-livereload": "^0.6.0",
+    "serve-static": "^1.13.1",
+    "tiny-lr": "^1.0.5"
+  },
+  "devDependencies": {
+    "connect": "^3.6.5",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^3.0.0",
+    "gulp-imagemin": "^4.0.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-myth": "^1.1.0",
+    "gulp-stylus": "^2.6.0",
+    "gulp-uglify": "^3.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ziyat/kremlin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ziyat/kremlin/issues"
+  },
+  "homepage": "https://github.com/Ziyat/kremlin#readme"
+}
