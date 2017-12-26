@@ -142,9 +142,11 @@ $this->registerMetaTag([
             <div class="space"></div>
             <p><i class="fa fa-map-marker"></i>г. Москва, Никольская улица 17/1</p>
             <div class="space"></div>
-            <p><i class="fa fa-envelope-o"></i>info@company.com</p>
+            <p><i class="fa fa-envelope-o"></i>info@kremlinwatchservice.ru</p>
             <div class="space"></div>
-            <p><i class="fa fa-phone"></i>+8 000 000 000 00</p>
+            <p><i class="fa fa-phone"></i>
+                8 (495) 799 07 07 / 8 (903) 799 07 07
+            </p>
         </div>
         <div class="col-md-8">
             <iframe src="https://yandex.ru/map-widget/v1/-/CBaTmPQtpB" width="100%" height="300" frameborder="0"></iframe>

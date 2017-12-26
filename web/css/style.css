@@ -6,10 +6,13 @@ body, html {
 }
 @media (max-width: 460px) { 
 	.intro-text h1{
-		font-size: 45px !important;
+		font-size: 40px !important;
 	}
 	header p{
 		font-size: 21px !important;
+	}
+	.image, .thumbnail{
+		height: auto !important;
 	}
 }
 .thumbnail {
