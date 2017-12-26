@@ -25,7 +25,7 @@ function main() {
     Show Menu on Book
     ======================================*/
     $(window).bind('scroll', function() {
-        var navHeight = $(window).height() - 500;
+        var navHeight = $(window).height() - 760;
         if ($(window).scrollTop() > navHeight) {
             $('.navbar-default').addClass('on');
         } else {
@@ -42,32 +42,32 @@ function main() {
   	/*====================================
     Portfolio Isotope Filter
     ======================================*/
-    $(window).load(function() {
-        var $container = $('.portfolio-items');
-        $container.isotope({
-            filter: '*',
-            animationOptions: {
-                duration: 750,
-                easing: 'linear',
-                queue: false
-            }
-        });
-        $('.cat a').click(function() {
-            $('.cat .active').removeClass('active');
-            $(this).addClass('active');
-            var selector = $(this).attr('data-filter');
-            $container.isotope({
-                filter: selector,
-                animationOptions: {
-                    duration: 750,
-                    easing: 'linear',
-                    queue: false
-                }
-            });
-            return false;
-        });
-
-    });
+    // $(window).load(function() {
+    //     var $container = $('.portfolio-items');
+    //     $container.isotope({
+    //         filter: '*',
+    //         animationOptions: {
+    //             duration: 750,
+    //             easing: 'linear',
+    //             queue: false
+    //         }
+    //     });
+    //     $('.cat a').click(function() {
+    //         $('.cat .active').removeClass('active');
+    //         $(this).addClass('active');
+    //         var selector = $(this).attr('data-filter');
+    //         $container.isotope({
+    //             filter: selector,
+    //             animationOptions: {
+    //                 duration: 750,
+    //                 easing: 'linear',
+    //                 queue: false
+    //             }
+    //         });
+    //         return false;
+    //     });
+    //
+    // });
 
   	/*====================================
     Pretty Photo
