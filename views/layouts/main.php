@@ -34,15 +34,15 @@ LtAppAsset::register($this);
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-            <a class="navbar-brand" href="#fake">Кремлевский</a> </div>
+            <a class="navbar-brand" href="<?= \yii\helpers\Url::to('/') ?>">Кремлевский</a> </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#fake" class="page-scroll">Cловарь Часовщика</a></li>
-                <li><a href="#fake" class="page-scroll">Стоимость Ремонта</a></li>
-                <li><a href="#fake" class="page-scroll">Услуги Сервиса</a></li>
-                <li><a href="#fake" class="page-scroll">Оставить заявку</a></li>
+                <li <?= $this->params['active'] == 'dictionary' ? 'class="active"' : '' ?>><a href="<?= \yii\helpers\Url::to('/dictionary') ?>" class="page-scroll">Cловарь Часовщика</a></li>
+                <li <?= $this->params['active'] == 'price' ? 'class="active"' : '' ?>><a href="<?= \yii\helpers\Url::to('/price') ?>" class="page-scroll">Стоимость Ремонта</a></li>
+                <li <?= $this->params['active'] == 'services' ? 'class="active"' : '' ?>><a href="<?= \yii\helpers\Url::to('/services') ?>" class="page-scroll">Услуги Сервиса</a></li>
+                <li <?= $this->params['active'] == 'contact' ? 'class="active"' : '' ?>><a href="<?= \yii\helpers\Url::to('/contact') ?>" class="page-scroll">Оставить заявку</a></li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -55,14 +55,13 @@ LtAppAsset::register($this);
     <div class="intro-text">
         <h1><span class="color">Кремлевский</span> часовой сервис</h1>
         <p>часовая мастерская никольская 17/1</p>
+        <a href="<?= \yii\helpers\Url::to('/contact') ?>" class="btn btn-default btn-lg page-scroll">Оставить заявку</a> </div>
         <div class="clearfix"></div>
         <!-- <a href="#about-section" class="btn btn-default btn-lg page-scroll">Learn More</a> </div> -->
 </header>
-
-        <?= Breadcrumbs::widget([
-            'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
-        ]) ?>
-        <?= Alert::widget() ?>
+        <div class="container">
+            <?= Alert::widget() ?>
+        </div>
         <?= $content ?>
 
 <div id="social-section">

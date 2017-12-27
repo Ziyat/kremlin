@@ -9,12 +9,13 @@ $this->registerMetaTag([
 ]);
 $this->registerMetaTag([
     'property' => 'og:title',
-    'content' => 'Кремлевский часовой сервис | ремонт часов, диагностика часов, замена элементов питания часов, изготовление и замена стекол'
+    'content' => $this->title
 ]);
 $this->registerMetaTag([
     'property' => 'og:image',
     'content' => '/img/kremlinwatchservice.jpg'
 ]);
+$this->params['active'] = '';
 ?>
 <section id="first-section">
     <div class="container">

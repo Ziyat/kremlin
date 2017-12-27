@@ -4,6 +4,11 @@ body, html {
 	-webkit-font-smoothing: antialiased !important;
 	color: #333;
 }
+
+.list-group-item:last-child, .list-group-item:first-child,.modal-content{
+	border-radius: 0 !important;
+}
+
 @media (max-width: 460px) { 
 	.intro-text h1{
 		font-size: 40px !important;

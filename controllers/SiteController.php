@@ -119,8 +119,13 @@ class SiteController extends Controller
      *
      * @return string
      */
-    public function actionAbout()
+    public function actionDictionary()
     {
-        return $this->render('about');
+        return $this->render('dictionary');
     }
+    public function actionPrice()
+    {
+        return $this->render('price');
+    }
+
 }

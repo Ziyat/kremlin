@@ -55,7 +55,7 @@ $config = [
             'showScriptName' => false,
             'rules' => [
                 '' => 'site/index',
-                '<_a:product|gallery|about|contact|signup|login>' => 'site/<_a>',
+                '<_a:price|dictionary|contact|signup|login>' => 'site/<_a>',
             ],
         ],
 
