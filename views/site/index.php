@@ -143,10 +143,14 @@ $this->params['active'] = '';
             <div class="space"></div>
             <p><i class="fa fa-map-marker"></i>г. Москва, Никольская улица 17/1</p>
             <div class="space"></div>
-            <p><i class="fa fa-envelope-o"></i>info@kremlinwatchservice.ru</p>
+            <p><i class="fa fa-envelope-o"></i>ilmondo-almaz@mail.ru</p>
             <div class="space"></div>
             <p><i class="fa fa-phone"></i>
-                8 (495) 799 07 07 / 8 (903) 799 07 07
+                8 (495) 799 07 07
+            </p>
+            <div class="space"></div>
+            <p><i class="fa fa-phone"></i>
+                8 (903) 799 07 07
             </p>
         </div>
         <div class="col-md-8">
