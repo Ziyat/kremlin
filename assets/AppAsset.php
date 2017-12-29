@@ -29,10 +29,10 @@ class AppAsset extends AssetBundle
 //        'https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js',
 //        'js/jquery.1.11.1.js',
         'js/SmoothScroll.js',
-        'js/jquery.prettyPhoto.js',
-        'js/jquery.isotope.js',
-        'js/jqBootstrapValidation.js',
-        'js/contact_me.js',
+//        'js/jquery.prettyPhoto.js',
+//        'js/jquery.isotope.js',
+//        'js/jqBootstrapValidation.js',
+//        'js/contact_me.js',
         'js/main.js'
     ];
     public $depends = [

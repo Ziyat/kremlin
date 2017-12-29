@@ -34,7 +34,7 @@ LtAppAsset::register($this);
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-            <a class="navbar-brand" href="<?= \yii\helpers\Url::to('/') ?>">Кремлевский</a> </div>
+            <a class="navbar-brand" href="<?= \yii\helpers\Url::to('/') ?>">Главная</a> </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -42,7 +42,7 @@ LtAppAsset::register($this);
                 <li <?= $this->params['active'] == 'dictionary' ? 'class="active"' : '' ?>><a href="<?= \yii\helpers\Url::to('/dictionary') ?>" class="page-scroll">Cловарь Часовщика</a></li>
                 <li <?= $this->params['active'] == 'price' ? 'class="active"' : '' ?>><a href="<?= \yii\helpers\Url::to('/price') ?>" class="page-scroll">Стоимость Ремонта</a></li>
                 <li <?= $this->params['active'] == 'services' ? 'class="active"' : '' ?>><a href="<?= \yii\helpers\Url::to('/services') ?>" class="page-scroll">Услуги Сервиса</a></li>
-                <li <?= $this->params['active'] == 'contact' ? 'class="active"' : '' ?>><a href="<?= \yii\helpers\Url::to('/contact') ?>" class="page-scroll">Оставить заявку</a></li>
+                <li <?= $this->params['active'] == 'contact' ? 'class="active"' : '' ?>><a href="<?= \yii\helpers\Url::to('/contact') ?>" class="page-scroll">Контакты</a></li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -54,7 +54,9 @@ LtAppAsset::register($this);
 <header class="text-center" name="home">
     <div class="intro-text">
         <h1><span class="color">Кремлевский</span> часовой сервис</h1>
-        <p>часовая мастерская никольская 17/1</p>
+        <p><span class="color">часовая мастерская</span> никольская 17/1</p>
+        <p class="phone"><a href="tel:84957990707">8 (495) 799 07 07</a> | <a href="tel:89037990707">8 (903) 799 07 07</a></p>
+
         <a href="<?= \yii\helpers\Url::to('/contact') ?>" class="btn btn-default btn-lg page-scroll">Оставить заявку</a> </div>
         <div class="clearfix"></div>
         <!-- <a href="#about-section" class="btn btn-default btn-lg page-scroll">Learn More</a> </div> -->

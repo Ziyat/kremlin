@@ -8,6 +8,18 @@ body, html {
 .list-group-item:last-child, .list-group-item:first-child,.modal-content{
 	border-radius: 0 !important;
 }
+.thumbnail .caption{
+	font-size: 18px;
+}
+.phone a{
+	color: #ffffff;
+}
+.phone a:hover{
+	color: #fa8d00;
+}
+header p{
+	margin-bottom: 20px !important;
+}
 
 @media (max-width: 460px) { 
 	.intro-text h1{
@@ -42,7 +54,7 @@ h1 strong {
 	font-weight: 900;
 }
 h2 {
-	line-height: 20px;
+	/*line-height: 20px;*/
 	margin: 0;
 	font-size: 36px;
 	font-weight: 300;
@@ -154,14 +166,14 @@ hr {
 }
 /* Home Style */
 header {
-	background: url(../img/header-bg.jpg) no-repeat bottom center;
+	background: url(../img/header-bg.jpg) no-repeat top left;
 	background-size: cover;
 	color: #cfcfcf;
 	position: relative;
 	height: 100%;
 }
 header p {
-	color: rgba(255,255,255,0.5);
+	color: #ffffff;
 	font-size: 18px;
 	font-weight: 300;
 	margin-bottom: 60px;
@@ -169,10 +181,10 @@ header p {
 }
 .intro-text {
 	position: relative;
-	padding-top: 150px;
+	padding-top: 100px;
 	padding-right: 0;
 	padding-left: 0;
-	padding-bottom: 100px;
+	padding-bottom: 50px;
 }
 .intro-text H1 {
 	font-size: 60px;
