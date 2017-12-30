@@ -128,4 +128,9 @@ class SiteController extends Controller
         return $this->render('price');
     }
 
+    public function actionServices()
+    {
+        return $this->render('services');
+    }
+
 }

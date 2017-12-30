@@ -28,7 +28,7 @@ $this->params['active'] = '';
             <div class="col-md-6">
                 <div class="thumbnail">
                     <div class="caption text-center">
-                        <h4>РЕМОНТ ЧАСОВ</h4>
+                        <h4><a href="<?= \yii\helpers\Url::to('/site/services') ?>">РЕМОНТ ЧАСОВ</a></h4>
                         <p>Сервисный центр по ремонту и обслуживанию швейцарских часов. Гарантийный Ремонт любых Часовых Механизмов.</p>
                     </div>
                 </div>
@@ -42,7 +42,7 @@ $this->params['active'] = '';
             <div class="col-md-6">
                 <div class="thumbnail">
                     <div class="caption text-center">
-                        <h4>ДИАГНОСТИКА ЧАСОВ</h4>
+                        <h4><a href="<?= \yii\helpers\Url::to('/site/services') ?>">ДИАГНОСТИКА ЧАСОВ</a></h4>
                         <p>Проверка точности, герметичности и восстановление в наручных часах с последующей регулировкой. Профилактический осмотр.</p>
                     </div>
                 </div>
@@ -66,7 +66,7 @@ $this->params['active'] = '';
             <div class="col-md-6">
                 <div class="thumbnail">
                     <div class="caption text-center">
-                        <h4>ЗАМЕНА ЭЛЕМЕНТОВ ПИТАНИЯ</h4>
+                        <h4><a href="<?= \yii\helpers\Url::to('/site/services') ?>">ЗАМЕНА ЭЛЕМЕНТОВ ПИТАНИЯ</a></h4>
                         <p>Быстрая замена батарейки в наручных часах. Оригинальные батарейки. Гарантия 24 месяца.</p>
                     </div>
                 </div>
@@ -80,7 +80,7 @@ $this->params['active'] = '';
             <div class="col-md-6">
                 <div class="thumbnail">
                     <div class="caption text-center">
-                        <h4>ИЗГОТОВЛЕНИЕ И ЗАМЕНА СТЕКОЛ</h4>
+                        <h4><a href="<?= \yii\helpers\Url::to('/site/services') ?>">ИЗГОТОВЛЕНИЕ И ЗАМЕНА СТЕКОЛ</a></h4>
                         <p>Быстрая замена стекла наручных часов. Ремонт оригинальных сапфировых часовых стекол, изготавливаем стекла под заказ.</p>
                     </div>
                 </div>
@@ -104,7 +104,7 @@ $this->params['active'] = '';
             <div class="col-md-6">
                 <div class="thumbnail">
                     <div class="caption text-center">
-                        <h4>ПОДБОРКА РЕМЕШКА / УЛЬТРОЗВУКОВАЯ ЧИСТКА</h4>
+                        <h4><a href="<?= \yii\helpers\Url::to('/site/services') ?>">ПОДБОРКА РЕМЕШКА / УЛЬТРОЗВУКОВАЯ ЧИСТКА</a></h4>
                         <p>Подбор и продажа ремешка или браслета для наручных часов. Ультразвуковая чистка, полировка браслетов и корпуса часов.</p>
                     </div>
                 </div>
@@ -118,7 +118,7 @@ $this->params['active'] = '';
             <div class="col-md-6">
                 <div class="thumbnail">
                     <div class="caption text-center">
-                        <h4>РЕСТАВРАЦИЯ</h4>
+                        <h4><a href="<?= \yii\helpers\Url::to('/site/services') ?>">РЕСТАВРАЦИЯ</a></h4>
                         <p>Наручных часов: настенных, напольных, карманных, каретных, каминных, антикварных, и современных с любым уровнем сложности механизма.</p>
                     </div>
                 </div>

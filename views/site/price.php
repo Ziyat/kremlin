@@ -31,15 +31,75 @@ $this->params['active'] = 'price';
             <div class="col-md-12">
 <!--                <h4>Брэнды</h4>-->
             </div>
+
+            <!-- price 4 -->
+
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">ARMAND</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">NICOLET</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">BAUME</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">MERCIER</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">TAG</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">HEUER</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">CONCORD</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">TUDOR</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">RADO</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">PEQUIGNET</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">OMEGA</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">EBERHARD</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">JAGUAR</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">MONTBLANK</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">MAURICE</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">LACROIX</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">RAYMOND</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">WEIL</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">APELLA</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">GOLD</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">MOVADO</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">CHANEL</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">A.DUNHILL</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">ITD</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">CHAUMET</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">MILUS</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">KELEK</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">TECHNOMARINE</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">VAN DER BAUWEDE</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">AQUANAUTIC</button>
+
+            <!-- price 5 -->
+
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price5">BREITILING</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price5">BVLGARI</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price5">CARTIER</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price5">CORUM</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price5">EBEL</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price5">IWC</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price5">JEAN RICHARD</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price5">JORG HYSEK</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price5">PANERAI</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price5">PAUL PICOT</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price5">ROLEX</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price5">ULYSSE NARDIN</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price5">CFB</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price5">ZENITH</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price5">FORTIS</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price5">TUDOR</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price5">CARL F. BUCHERER</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price5">CHRONOSWISS</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price5">PERRELET</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price5">PORCHE DESIGN</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price5">CONCORD</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price5">DUBEY SHALDENBRAND</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price5">OMEGA</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price5">CHAUMET</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price5">VAN DER BAUWEDE</button>
+
+
+
             <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price1">August Raymond</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price1">Mido
-            </button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price1">Longines
-            </button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price1">Edox
-            </button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price1">Eterna
-            </button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price1">Mido</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price1">Longines</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price1">Edox</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price1">Eterna</button>
             <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price1">Marvin
             </button>
             <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price1">Nina
@@ -123,8 +183,7 @@ $this->params['active'] = 'price';
             <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price3">CHOPARD</button>
             <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price3">FRANK</button>
             <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price3">MULLER</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price3">PATEK</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price3">PHILIPPE</button>
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price3">PATEK PHILIPPE</button>
             <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price3">VACHERON</button>
             <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price3">KONSTANTIN</button>
             <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price3">PARMIGIANI</button>
@@ -144,66 +203,7 @@ $this->params['active'] = 'price';
             <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price3">HUBLOT</button>
 
 
-            <!-- price 4 -->
 
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">ARMAND</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">NICOLET</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">BAUME</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">MERCIER</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">TAG</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">HEUER</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">CONCORD</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">TUDOR</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">RADO</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">PEQUIGNET</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">OMEGA</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">EBERHARD</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">JAGUAR</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">MONTBLANK</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">MAURICE</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">LACROIX</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">RAYMOND</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">WEIL</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">APELLA</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">GOLD</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">MOVADO</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">CHANEL</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">A.DUNHILL</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">ITD</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">CHAUMET</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">MILUS</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">KELEK</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">TECHNOMARINE</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">VAN DER BAUWEDE</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price4">AQUANAUTIC</button>
-
-            <!-- price 5 -->
-
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price5">BREITILING</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price5">BVLGARI</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price5">CARTIER</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price5">CORUM</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price5">EBEL</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price5">IWC</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price5">JEAN RICHARD</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price5">JORG HYSEK</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price5">PANERAI</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price5">PAUL PICOT</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price5">ROLEX</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price5">ULYSSE NARDIN</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price5">CFB</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price5">ZENITH</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price5">FORTIS</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price5">TUDOR</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price5">CARL F. BUCHERER</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price5">CHRONOSWISS</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price5">PERRELET</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price5">PORCHE DESIGN</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price5">CONCORD</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price5">DUBEY SHALDENBRAND</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price5">OMEGA</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price5">CHAUMET</button>
-            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#price5">VAN DER BAUWEDE</button>
         </div>
     </div>
 </div>

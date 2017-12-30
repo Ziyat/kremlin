@@ -4,7 +4,10 @@ body, html {
 	-webkit-font-smoothing: antialiased !important;
 	color: #333;
 }
-
+button{
+	text-transform: uppercase;
+	font-size: 15px !important;
+}
 .list-group-item:last-child, .list-group-item:first-child,.modal-content{
 	border-radius: 0 !important;
 }
@@ -67,7 +70,7 @@ h3 {
 }
 h4 {
 	color: #666;
-	font-size: 20px;
+	font-size: 25px;
 }
 h5 {
 	text-transform: uppercase;
