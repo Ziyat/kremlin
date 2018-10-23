@@ -20,20 +20,25 @@ class AppAsset extends AssetBundle
     public $basePath = '@webroot';
     public $baseUrl = '@web';
     public $css = [
-        'fonts/font-awesome/css/font-awesome.css',
-        'css/prettyPhoto.css',
-        'css/style.css',
+//        "css/bootstrap.min.css",
+        "css/font-awesome.min.css",
+        "css/owl.carousel.css",
+        "css/owl.theme.css",
+        "css/nivo-lightbox/nivo-lightbox.css",
+        "css/nivo-lightbox/nivo-lightbox-theme.css",
+        "css/animate.css",
+        "css/style.css",
 
     ];
     public $js = [
-//        'https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js',
-//        'js/jquery.1.11.1.js',
-        'js/SmoothScroll.js',
-//        'js/jquery.prettyPhoto.js',
-//        'js/jquery.isotope.js',
-//        'js/jqBootstrapValidation.js',
-//        'js/contact_me.js',
-        'js/main.js'
+//        "js/jquery-1.11.2.min.js",
+        "js/wow.min.js",
+        "js/owl-carousel.js",
+        "js/nivo-lightbox.min.js",
+        "js/smoothscroll.js",
+//        "js/bootstrap.min.js",
+        "js/classie.js",
+        "js/script.js",
     ];
     public $depends = [
         'yii\web\YiiAsset',

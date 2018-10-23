@@ -13,7 +13,6 @@ class ContactForm extends Model
     public $name;
     public $email;
     public $phone;
-    public $brand;
     public $text;
     public $verifyCode;
 
@@ -25,7 +24,7 @@ class ContactForm extends Model
     {
         return [
             // name, email, brand and text are required
-            [['name', 'email', 'brand', 'text','phone'], 'required'],
+            [['name', 'email', 'text','phone'], 'required'],
             // email has to be a valid email address
             ['email', 'email'],
             // verifyCode needs to be entered correctly
@@ -54,7 +53,6 @@ class ContactForm extends Model
             Yii::$app->mailer->compose()
                 ->setTo($email)
                 ->setFrom([$this->email => $this->name])
-                ->setSubject($this->brand)
                 ->setTextBody($this->text)
                 ->send();
 
