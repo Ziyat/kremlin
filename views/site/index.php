@@ -2,9 +2,9 @@
 
 /* @var $this yii\web\View */
 
-use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 use yii\captcha\Captcha;
+use yii\helpers\Html;
 
 $this->title = 'Сервисный Центр «МИР ЮВЕЛИРА»';
 $metaTags = [
@@ -27,6 +27,12 @@ $metaTags = [
 ];
 foreach ($metaTags as $meta){
     $this->registerMetaTag($meta);
+}
+
+$files = scandir(__dir__ . "/../../web/img/gallery");
+function str_ends($string, $end)
+{
+    return (substr($string, -strlen($end), strlen($end)) === $end);
 }
 
 ?>
@@ -97,6 +103,12 @@ foreach ($metaTags as $meta){
                 </a>
                 <h3>Sublime by Bosco</h3>
             </div>
+            <div class="col-sm-2 wow animated fadeInRight">
+                <a href="https://www.chaumet.com/">
+                    <img class="img-responsive" src="img/chaumet.jpg" alt="">
+                </a>
+                <h3>Chaumet</h3>
+            </div>
             <div class="col-sm-2 wow animated bounceInUp">
                 <a href="https://www.hstern.net/">
                     <img class="img-responsive" src="img/Pomellato.png" alt="">
@@ -109,18 +121,35 @@ foreach ($metaTags as $meta){
                 </a>
                 <h3>H.Stern</h3>
             </div>
-            <div class="col-sm-2 wow animated bounceInUp">
-                <a href="http://www.pomellato.com/us/">
-                    <img class="img-responsive" src="img/tous.png" alt="">
-                </a>
-                <h3>Tous</h3>
-            </div>
             <div class="col-sm-2 wow animated fadeInRight">
+                <a href="http://www.mauboussin.com">
+                    <img class="img-responsive" src="img/mauboussin.jpg" alt="">
+                </a>
+                <h3>mauboussin</h3>
+            </div>
+
+
+            <div class="clearfix"></div>
+            <hr>
+            <div class="col-sm-2 col-sm-offset-3 wow animated fadeInRight">
                 <a href="http://www.pomellato.com/us/">
                     <img class="img-responsive" src="img/gourju.png" alt="">
                 </a>
                 <h3>Gourji</h3>
             </div>
+            <div class="col-sm-2  wow animated bounceInUp">
+                <a href="http://www.pomellato.com/us/">
+                    <img class="img-responsive" src="img/tous.png" alt="">
+                </a>
+                <h3>Tous</h3>
+            </div>
+            <div class="col-sm-2  wow animated fadeInRight">
+                <a href="http://juvelirtorg.spb.ru/">
+                    <img class="img-responsive" src="img/torg.jpg" alt="">
+                </a>
+                <h3>Ювелирторг</h3>
+            </div>
+
         </div> <!-- /.row -->
     </div> <!-- /.container -->
 </div> <!-- /#speciality -->
@@ -133,27 +162,16 @@ foreach ($metaTags as $meta){
         <div class="row">
             <div class="col-xs-12">
                 <div id="screenshots" class="owl-carousel owl-theme">
-                    <a href="/img/gallery/g1.jpg" class="item wow flipInY animated animated" data-lightbox-gallery="screenshots">
-                        <img src="/img/gallery/g1.jpg" class="img_res wow animated zoomIn" alt="">
-                    </a>
-                    <a href="/img/gallery/g2.jpg" class="item wow flipInY animated animated" data-lightbox-gallery="screenshots">
-                        <img src="/img/gallery/g2.jpg" class="img_res wow animated zoomIn" alt="">
-                    </a>
-                    <a href="/img/gallery/g3.jpg" class="item wow flipInY animated animated" data-lightbox-gallery="screenshots">
-                        <img src="/img/gallery/g3.jpg" class="img_res wow animated zoomIn" alt="">
-                    </a>
-                    <a href="/img/gallery/g4.jpg" class="item wow flipInY animated animated" data-lightbox-gallery="screenshots">
-                        <img src="/img/gallery/g4.jpg" class="img_res wow animated zoomIn" alt="">
-                    </a>
-                    <a href="/img/gallery/g5.jpg" class="item wow flipInY animated animated" data-lightbox-gallery="screenshots">
-                        <img src="/img/gallery/g5.jpg" class="img_res wow animated zoomIn" alt="">
-                    </a>
-                    <a href="/img/gallery/g6.jpg" class="item wow flipInY animated animated" data-lightbox-gallery="screenshots">
-                        <img src="/img/gallery/g6.jpg" class="img_res wow animated zoomIn" alt="">
-                    </a>
-                    <a href="/img/gallery/g7.jpg" class="item wow flipInY animated animated" data-lightbox-gallery="screenshots">
-                        <img src="/img/gallery/g7.jpg" class="img_res wow animated zoomIn" alt="">
-                    </a>
+                    <?php foreach ($files as $file): ?>
+
+                        <?php if (str_ends($file, '.jpg') || str_ends($file, '.png')): ?>
+                            <a href="/img/gallery/<?= $file ?>" class="item wow flipInY animated animated"
+                               data-lightbox-gallery="screenshots">
+                                <img src="/img/gallery/<?= $file ?>" class="img_res wow animated zoomIn" alt="">
+                            </a>
+                        <?php endif; ?>
+
+                    <?php endforeach; ?>
                 </div>
                 <div class="customNavigation row">
                     <a class="btn prev gallery-nav wow animated bounceInLeft"><i class="fa fa-chevron-left"></i></a>
@@ -215,6 +233,14 @@ foreach ($metaTags as $meta){
                             <br>
                             <h3>Электронная почта</h3>
                             <p class="contact"><a href="mailto:didiamonds@mail.ru">didiamonds@mail.ru</a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-sm-6">
+                        <div class="contact-item wow animated fadeInLeft">
+                            <i class="fa fa-home"></i>
+                            <br>
+                            <h3>Адрес</h3>
+                            <p class="contact">ТЦ Славянский, Никольская ул, 17, строение 2, офис 7</p>
                         </div>
                     </div>
                 </div>

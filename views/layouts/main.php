@@ -86,23 +86,6 @@ HeadAppAsset::register($this);
 </section>
 <!-- /#header -->
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus hic id neque omnis praesentium, quibusdam repellat
-tenetur. Alias aperiam aut expedita magni obcaecati, odit optio quas? Ab ex iusto molestias?
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus hic id neque omnis praesentium, quibusdam repellat
-tenetur. Alias aperiam aut expedita magni obcaecati, odit optio quas? Ab ex iusto molestias?
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus hic id neque omnis praesentium, quibusdam repellat
-tenetur. Alias aperiam aut expedita magni obcaecati, odit optio quas? Ab ex iusto molestias?
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus hic id neque omnis praesentium, quibusdam repellat
-tenetur. Alias aperiam aut expedita magni obcaecati, odit optio quas? Ab ex iusto molestias?
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus hic id neque omnis praesentium, quibusdam repellat
-tenetur. Alias aperiam aut expedita magni obcaecati, odit optio quas? Ab ex iusto molestias?
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus hic id neque omnis praesentium, quibusdam repellat
-tenetur. Alias aperiam aut expedita magni obcaecati, odit optio quas? Ab ex iusto molestias?
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus hic id neque omnis praesentium, quibusdam repellat
-tenetur. Alias aperiam aut expedita magni obcaecati, odit optio quas? Ab ex iusto molestias?
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus hic id neque omnis praesentium, quibusdam repellat
-tenetur. Alias aperiam aut expedita magni obcaecati, odit optio quas? Ab ex iusto molestias?
-
 <?= $content ?>
 <!-- HHHHHHHHHHHHHHHHHH        Footer          HHHHHHHHHHHHHHHH -->
 
