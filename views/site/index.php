@@ -285,6 +285,9 @@ function str_ends($string, $end)
                     <?php ActiveForm::end(); ?>
                 <?php endif; ?>
             </div>
+            <div class="col-md-12">
+                <iframe src="https://yandex.ru/map-widget/v1/-/CBB1ZXH8sD" width="100%" height="300" frameborder="1" allowfullscreen="true"></iframe>
+            </div>
         </div> <!-- /.row -->
     </div> <!-- /.container -->
 </section> <!-- /#contact -->
