@@ -4,12 +4,10 @@
 
 /* @var $content string */
 
-use app\widgets\Alert;
-use yii\helpers\Html;
-use yii\widgets\Breadcrumbs;
 use app\assets\AppAsset;
 use app\assets\HeadAppAsset;
 use app\assets\LtAppAsset;
+use yii\helpers\Html;
 
 AppAsset::register($this);
 HeadAppAsset::register($this);
@@ -23,71 +21,76 @@ HeadAppAsset::register($this);
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-N4NHZCG');</script>
+    <!-- End Google Tag Manager -->
+
     <?php $this->head() ?>
 </head>
 <body>
 <?php $this->beginBody() ?>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N4NHZCG"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
 <a href="#header" id="back-to-top" class="top"><i class="fa fa-chevron-up"></i></a>
 <!--<div id="preloader"></div>-->
 <section id="header" class="header">
-    <div class="top-bar">
+    <nav class="navbar navbar-default">
         <div class="container">
-            <div class="navigation" id="navigation-scroll">
-                <div class="row">
-                    <div class="col-md-11 col-xs-10">
-                        <a href="/"><span id="logo"><strong
-                                        class="strong">Сервисный Центр</strong> <br>«МИР ЮВЕЛИРА»</span></a>
-                    </div>
-                    <div class="col-md-1 col-xs-2">
-                        <p class="nav-button">
-                            <button id="trigger-overlay" type="button">
-                                <i class="fa fa-bars"></i>
-                            </button>
-                        </p>
-                    </div>
-                </div><!-- /.row -->
-            </div><!-- /.navigation -->
-        </div><!--/.container-->
-    </div><!--/.top-bar-->
 
-    <div class="container">
-        <div class="starting">
-            <div class="row">
-                <div class="col-sm-5">
-                    <img src="img/ilmondo.png" alt="DiDiamond" class="wow fadeInDown animated animated">
-                </div>
-                <div class="col-sm-7">
-                    <div class="banner-text animation-box wow fadeInUp animated">
-                        <h2>
-                            <strong class="strong">C радостью </strong>предоставляет
-                        </h2>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">«МИР ЮВЕЛИРА»</a>
+            </div>
 
-                        <p>возможность для всех ценителей прекрасного воспользоватся услугами наших мастеров по
-                            изготовлению эксклюзивных ювелирных изделий по авторским эскизам.</p>
-                        <p>Украшения, изготавливаемые
-                            в нашей мастерской, особым образом отражают художественное и эстетическое восприятие
-                            ювелирной моды и отличаются высоким исполнением, вкусом и неповторимостью каждого
-                            изделия.</p>
-                        <p>Еще одной отличительной особенностью нашей компании является гибкость, чуткое отношение к
-                            пожеланиям своих клиентов и возможность пользоваться всеми видами услуг, входящих в область
-                            ювелирного дела, включая новейшие технологии XXI века...</p>
-                        <p>
-                            Наша ювелирная компания обслуживает центр Москвы c 2001 года и считается самой крупной и
-                            профессиональной компанией в Москве.
-                        </p>
-
-                    </div> <!-- /.banner-text -->
-                </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#features">Услуги</a></li>
+                    <li><a href="#speciality">Нам доверяют</a></li>
+                    <li><a href="#gallery">Галерея</a></li>
+                    <li><a href="#team">Преимущества</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
             </div>
         </div>
-        <!-- /.starting -->
+    </nav>
+
+    <div class="nav">
+        <div class="navbar"></div>
     </div>
-    <!-- /.container -->
+    <div class="container">
+        <div class="row d-flex">
+            <div class="col-md-4 intro-text-left align-items-center d-flex">
+                <h2>Ювелирный сервисный <br>центр</h2>
+            </div>
+            <div class="col-md-4 intro-text-center">
+                <img id="gerb" src="/img/gerb-wt.png" alt="">
+                <p>«МИР ЮВЕЛИРА»</p>
+                    <a class="phones" href="tel:+74993440004">+7 499 344 0004</a>
+                &nbsp;
+                    <a class="phones" href="tel:+79096234000">+7 909 623 4000</a>
+                <p>Никольская, ул. 17/2</p>
+            </div>
+            <div class="col-md-4 intro-text-right align-items-center d-flex">
+                <h2>Авторизированный сервисный <br>центр </h2>
+            </div>
+            </div>
+    </div>
 </section>
-<!-- /#header -->
 
 <?= $content ?>
-<!-- HHHHHHHHHHHHHHHHHH        Footer          HHHHHHHHHHHHHHHH -->
 
 <section id="footer" class="wrapper">
     <div class="container text-center">
@@ -175,3 +178,17 @@ HeadAppAsset::register($this);
 </body>
 </html>
 <?php $this->endPage() ?>
+
+
+<?php
+$script = <<<JS
+$('.phones').on('click', function(){
+    ym(50956298, 'reachGoal', 'telClick');
+    gtag('event', 'telClick');
+});
+$('#submit').on('click', function(){
+   ym(50956298, 'reachGoal', 'form');
+   gtag('event', 'form');
+});
+JS;
+$this->registerJs($script);

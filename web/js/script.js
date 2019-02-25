@@ -37,14 +37,6 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 			classie.add( overlay, 'open' );
 		}
 	}
-
-	$(".overlay ul li a").click(function(){
-		toggleOverlay();
-	});
-
-
-	triggerBttn.addEventListener( 'click', toggleOverlay );
-	closeBttn.addEventListener( 'click', toggleOverlay );
 })();
 
 

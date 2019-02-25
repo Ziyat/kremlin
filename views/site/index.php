@@ -30,72 +30,39 @@ foreach ($metaTags as $meta){
 }
 
 $files = scandir(__dir__ . "/../../web/img/gallery");
+shuffle($files);
 function str_ends($string, $end)
 {
     return (substr($string, -strlen($end), strlen($end)) === $end);
 }
 
 ?>
-<!-- HHHHHHHHHHHHHHHHHH        Features         HHHHHHHHHHHHHHHH -->
-<section id="features" class="wrapper features">
+<section id="text" class="wrapper">
     <div class="container">
-        <h2 class="animation-box wow bounceIn animated">Наши Услуги</h2>
-        <div class="virticle-line"></div>
-        <div class="circle"></div>
-        <div class="row">
-            <div class="col-md-6 col-sm-6 wow animated fadeInLeft">
-                <img src="img/services.jpg" alt="" class="pull-right left-img img-responsive">
-            </div>
-            <div class="col-md-6 col-sm-6 wow animated fadeInRight">
-                <div class="features-list">
-                    <h3>Мы выполняем все виды работ по <br> ремонту <br> ювелирных изделий:</h3>
-                    <ul class="right">
-                        <li class="li"><i class="fa fa-chevron-right"></i> 3D моделирование и ручная работа
-                        </li>
-                        <li class="li">
-                            <i class="fa fa-chevron-right"></i> Изготовление ювелирных изделий:
-                            <ul>
-                                <li class="li"><i class="fa fa-chevron-right"></i> по эскизу</li>
-                                <li class="li"><i class="fa fa-chevron-right"></i> по образцу заказчика</li>
-                                <li class="li"><i class="fa fa-chevron-right"></i> по нашему образцу, художественный
-                                    дизайн
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="li"><i class="fa fa-chevron-right"></i> Лазерная пайка (производится при Вас)</li>
-                        <li class="li"><i class="fa fa-chevron-right"></i> Ремонт ювелирных изделий</li>
-                        <li class="li">
-                            <i class="fa fa-chevron-right"></i> Востановление покрытий (производится при Вас):
-                            <ul>
-                                <li class="li"><i class="fa fa-chevron-right"></i> родирование - белое, черное</li>
-                                <li class="li"><i class="fa fa-chevron-right"></i> золочение - желтое</li>
-                            </ul>
-                        </li>
-                        <li class="li"><i class="fa fa-chevron-right"></i> Реставрация ювелирных изделий</li>
-                        <li class="li"><i class="fa fa-chevron-right"></i> Граверные работы</li>
-                        <li class="li"><i class="fa fa-chevron-right"></i> Скупка золота и драгоценных камней</li>
-                        <li class="li"><i class="fa fa-chevron-right"></i> Заказ драгоценных и полудрагоценных камней
-                        </li>
-                        <li class="li">
-                            <i class="fa fa-chevron-right"></i>
-                            Заказ драгоценных и полудрагоценных камней (по огранке, по качеству)
-                        </li>
-                        <li class="li"><i class="fa fa-chevron-right"></i> Ремонт бижутерии</li>
-                    </ul>
-                </div> <!-- .features-list -->
-            </div>
-        </div> <!-- /.row -->
-    </div> <!-- /.container -->
-</section> <!-- /#features -->
+        <h2 class="text-center text-danger">
+            Сервисный центр находиться в самом сердце Москвы и на протяжении 15 лет завоевывал доверие и дружбу лучших
+            мировых брендов ювелирного искусства.
+        </h2>
+        <h2 class="text-center text-danger">
+            На данный момент <b>«Мир Ювелира»</b> оказывает полный спектр услуг по уходу и ремонту ювелирных изделий,
+            ремонт
+            часов, ремонт бижутерии, ремонт очков.
+        </h2>
+        <h2 class="text-center text-danger">
+            Отличительной особенностью нашей компании является гибкость, чуткое отношение к пожеланиям своих клиентов и
+            возможность пользоваться всеми видами услуг, входящих в область ювелирного дела, включая новейшие
+            технологии.
+        </h2>
+    </div>
+</section>
 
-
-<!-- HHHHHHHHHHHHHHHHHH        Speciality         HHHHHHHHHHHHHHHH -->
 <div id="speciality" class="wrapper">
     <div class="container">
         <h2 class="animation-box wow bounceIn animated">Нам доверяют</h2>
-        <p>На данный момент «Мир Ювелира» является авторизированным сервисным центром таких компаний как:</p>
         <div class="virticle-line"></div>
         <div class="circle"></div>
+        <h3>На данный момент «Мир Ювелира» является авторизированным сервисным центром таких компаний как:</h3>
+        <br>
         <div class="row">
             <div class="col-sm-2 col-sm-offset-1 wow animated fadeInLeft">
                 <a href="https://boscofamily.ru/brands/sublime-by-bosco.html">
@@ -154,6 +121,114 @@ function str_ends($string, $end)
     </div> <!-- /.container -->
 </div> <!-- /#speciality -->
 
+<section id="features" class="wrapper features">
+    <div class="container">
+        <h2 class="animation-box wow bounceIn animated">Полный спектр услуг сервиса</h2>
+        <div class="virticle-line"></div>
+        <div class="circle"></div>
+
+        <div class="col-md-6 col-sm-12 wow animated fadeInRight">
+            <h3><i class="fa fa-check-circle-o text-success"></i> Ремонт ювелирных изделий</h3>
+            <h3><i class="fa fa-check-circle-o text-success"></i> Ремонт бижутерии</h3>
+            <h3><i class="fa fa-check-circle-o text-success"></i> Ремонт часов</h3>
+            <h3><i class="fa fa-check-circle-o text-success"></i> Ремонт очков</h3>
+            <h3><i class="fa fa-check-circle-o text-success"></i> Реставрация ювелирных изделий</h3>
+            <h3><i class="fa fa-check-circle-o text-success"></i> Реставрация часов</h3>
+        </div>
+
+        <div class="col-md-6 col-sm-12 wow animated fadeInRight">
+            <img src="/img/services/servises-09.jpg" style="margin: 10px 0" class="img-responsive">
+        </div>
+
+        <h2 class="animation-box wow bounceIn animated">Наши Услуги</h2>
+        <div class="virticle-line"></div>
+        <div class="circle"></div>
+        <div class="row">
+            <div class="col-md-6 col-sm-12 wow animated fadeInLeft">
+                <img src="/img/services/servises-01.jpg" style="margin: 10px 0" class="img-responsive">
+                <img src="/img/services/servises-05.jpg" style="margin: 10px 0" class="img-responsive">
+            </div>
+            <div class="col-md-6 col-sm-12 wow animated fadeInRight">
+                <div class="features-list">
+                    <h3>Мы выполняем все виды работ по <br> ремонту <br> ювелирных изделий:</h3>
+                    <ul class="right">
+                        <li class="li"><i class="fa fa-check text-success"></i> Лазерная пайка (производится при Вас)
+                        </li>
+                        <li class="li">
+                            <i class="fa fa-check text-success"></i> Востановление покрытий (производится при Вас):
+                            <ul>
+                                <li class="li"><i class="fa fa-check text-success"></i> родирование - белое, черное</li>
+                                <li class="li"><i class="fa fa-check text-success"></i> золочение - желтое</li>
+                            </ul>
+                        </li>
+                        <li class="li">
+                            <i class="fa fa-check text-success"></i> Граверные работы:
+                            <ul>
+                                <li class="li"><i class="fa fa-check text-success"></i> Лазерная гравировка</li>
+                                <li class="li"><i class="fa fa-check text-success"></i> Ручная гравировка</li>
+                            </ul>
+                        </li>
+                        <li class="li"><i class="fa fa-check text-success"></i> Изменение размера кольца</li>
+                        <li class="li"><i class="fa fa-check text-success"></i> Ремонт цепочек</li>
+                        <li class="li"><i class="fa fa-check text-success"></i> Ремонт и замена замка</li>
+                    </ul>
+                </div> <!-- .features-list -->
+            </div>
+            <div class="clearfix"></div>
+            <div class="col-md-6 col-sm-12 wow animated fadeInLeft">
+                <div class="features-list">
+                    <ul class="right">
+                        <li class="li"><i class="fa fa-check text-success"></i> Ультразвуковая чистка</li>
+                        <li class="li"><i class="fa fa-check text-success"></i> Полировка изделий и корпусов</li>
+                        <li class="li"><i class="fa fa-check text-success"></i> Закрепка камней</li>
+                        <li class="li"><i class="fa fa-check text-success"></i> Огранка камней</li>
+                        <li class="li"><i class="fa fa-check text-success"></i> Ювелирная эмаль</li>
+                        <li class="li"><i class="fa fa-check text-success"></i> Заказ драгоценных и полудрагоценных
+                            камней
+                            (по
+                            огранке, по качеству)
+                        </li>
+                        <li class="li"><i class="fa fa-check text-success"></i> Восстановление утерянного, парного
+                            украшения
+                        </li>
+                        <li class="li"><i class="fa fa-check text-success"></i> Реставрация старинных колец и часов</li>
+                        <li class="li"><i class="fa fa-check text-success"></i> Заказ драгоценных и полудрагоценных
+                            камней
+                            (по огранке, по качеству)
+                        </li>
+                    </ul>
+                </div> <!-- .features-list -->
+            </div>
+            <div class="col-md-6 col-sm-12 wow animated fadeInRight">
+                <img src="/img/services/servises-04.jpg" style="margin: 10px 0" class="img-responsive">
+                <img src="/img/services/servises-03.jpg" style="margin: 10px 0" class="img-responsive">
+            </div>
+        </div> <!-- /.row -->
+    </div> <!-- /.container -->
+</section> <!-- /#features -->
+
+<div id="team" class="wrapper">
+    <div class="container">
+        <h2 class="animation-box wow bounceIn animated">Наши преимущества</h2>
+        <div class="virticle-line"></div>
+        <div class="circle"></div>
+        <div class="row">
+            <div class="col-md-6 col-sm-12 wow animated fadeInleft text-left">
+                <h3><i class="fa fa-check-circle-o text-success"></i> Контроль качества на всех этапах работ</h3>
+                <h3><i class="fa fa-check-circle-o text-success"></i> Высокое современное оборудование</h3>
+                <h3><i class="fa fa-check-circle-o text-success"></i> Профессиональный подбор высококвалифицированных
+                    мастеров</h3>
+                <h3><i class="fa fa-check-circle-o text-success"></i> Удобное расположение в центре Москвы ЦАО</h3>
+                <h3><i class="fa fa-check-circle-o text-success"></i> Гибкая система лояльности для постоянных клиентов
+                </h3>
+            </div>
+            <div class="col-md-6 col-sm-6 wow animated fadeInRight">
+                <img src="img/advantage.jpg" alt="" class="left-img img-responsive">
+            </div>
+        </div> <!-- /.row -->
+    </div> <!-- /.container -->
+</div> <!-- /#team -->
+
 <section id="gallery" class="wrapper">
     <div class="container">
         <h2 class="animation-box wow bounceIn animated">Галерея</h2>
@@ -184,34 +259,6 @@ function str_ends($string, $end)
 
 <!-- HHHHHHHHHHHHHHHHHH      Development Team      HHHHHHHHHHHHHHHH -->
 
-<div id="team" class="wrapper">
-    <div class="container">
-        <h2 class="animation-box wow bounceIn animated">Наши преимущества</h2>
-        <div class="virticle-line"></div>
-        <div class="circle"></div>
-        <div class="row">
-            <div class="col-md-6 col-sm-6 wow animated fadeInLeft">
-                <div class="features-list text-left">
-                    <ul class="right">
-                        <li class="li"><i class="fa fa-chevron-right"></i> Контроль качества на всех этапах работ</li>
-                        <li class="li"><i class="fa fa-chevron-right"></i> Высокое современное оборудование</li>
-                        <li class="li"><i class="fa fa-chevron-right"></i> Профессиональный подбор
-                            высококвалифицированных мастеров
-                        </li>
-                        <li class="li"><i class="fa fa-chevron-right"></i> Удобное расположение в центре Москвы ЦАО</li>
-                        <li class="li"><i class="fa fa-chevron-right"></i> Гибкая система лояльности для постоянных
-                            клиентов
-                        </li>
-                    </ul>
-                </div> <!-- .features-list -->
-
-            </div>
-            <div class="col-md-6 col-sm-6 wow animated fadeInRight">
-                <img src="img/advantage.jpg" alt="" class="pull-right left-img img-responsive">
-            </div>
-        </div> <!-- /.row -->
-    </div> <!-- /.container -->
-</div> <!-- /#team -->
 
 <!-- HHHHHHHHHHHHHHHHHH        Contact Us          HHHHHHHHHHHHHHHH -->
 <section id="contact" class="wrapper">
@@ -277,7 +324,7 @@ function str_ends($string, $end)
                         </div>
                         <div class="col-md-12">
                             <div class="text-center">
-                                <?= Html::submitButton('Отправить', ['class' => 'btn btn-sub', 'name' => 'contact-button']) ?>
+                                <?= Html::submitButton('Отправить', ['class' => 'btn btn-sub', 'name' => 'contact-button', 'id' => 'submit']) ?>
                             </div>
                         </div>
 
