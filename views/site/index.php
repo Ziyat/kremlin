@@ -183,11 +183,6 @@ function str_ends($string, $end)
                         <li class="li"><i class="fa fa-check text-success"></i> Закрепка камней</li>
                         <li class="li"><i class="fa fa-check text-success"></i> Огранка камней</li>
                         <li class="li"><i class="fa fa-check text-success"></i> Ювелирная эмаль</li>
-                        <li class="li"><i class="fa fa-check text-success"></i> Заказ драгоценных и полудрагоценных
-                            камней
-                            (по
-                            огранке, по качеству)
-                        </li>
                         <li class="li"><i class="fa fa-check text-success"></i> Восстановление утерянного, парного
                             украшения
                         </li>
@@ -214,13 +209,12 @@ function str_ends($string, $end)
         <div class="circle"></div>
         <div class="row">
             <div class="col-md-6 col-sm-12 wow animated fadeInleft text-left">
-                <h3><i class="fa fa-check-circle-o text-success"></i> Контроль качества на всех этапах работ</h3>
-                <h3><i class="fa fa-check-circle-o text-success"></i> Высокое современное оборудование</h3>
-                <h3><i class="fa fa-check-circle-o text-success"></i> Профессиональный подбор высококвалифицированных
-                    мастеров</h3>
                 <h3><i class="fa fa-check-circle-o text-success"></i> Удобное расположение в центре Москвы ЦАО</h3>
-                <h3><i class="fa fa-check-circle-o text-success"></i> Гибкая система лояльности для постоянных клиентов
-                </h3>
+                <h3><i class="fa fa-check-circle-o text-success"></i> Высокое качество – Современное оборудование</h3>
+                <h3><i class="fa fa-check-circle-o text-success"></i> Контроль качества на всех этапах работ </h3>
+                <h3><i class="fa fa-check-circle-o text-success"></i> Профессиональный подбор высококвалифицированных мастеров</h3>
+                <h3><i class="fa fa-check-circle-o text-success"></i> Точно в срок – Выполним работу и организуем доставку и передачу изделий</h3>
+                <h3><i class="fa fa-check-circle-o text-success"></i> Гибкая система лояльности для постоянных клиентов</h3>
             </div>
             <div class="col-md-6 col-sm-6 wow animated fadeInRight">
                 <img src="img/advantage.jpg" alt="" class="left-img img-responsive">
